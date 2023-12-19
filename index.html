@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keerthana's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <!-- Dynamic Slide Section -->
+    
+
+    <!-- Main Content -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+        
+        <!-- Full-width images with number and caption text -->
+        <center><div class="mySlides fade">
+        <img src="./assets/1.jpg" style="width:50%;max-height: 600px;">
+        <div class="about-text">Welcome to Keerthana's Portfolio</div>
+        </div>
+    
+        <div class="mySlides fade">
+        <img src="./assets/2.jpg" style="width:50%;max-height: 600px;">
+        <div class="about-text">Full-Stack Web Developer</div>
+        </div>
+    
+        <div class="mySlides fade">
+        <img src="./assets/Keerthanas_photo1.jpg" style="width:50%;max-height: 600px;">
+        <div class="about-text">Passionate about AI and ML</div>
+        </div>
+    
+        <!-- Next and previous buttons -->
+</center>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <div class="about-content">
+                <div class="about-photo">
+                    <img src="./assets/Keerthanas_photo.jpg" alt="Keerthana's Photo">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Keerthana, a full-stack web developer based in Bangalore. With a background in Artificial Intelligence and Machine Learning, I bring a unique perspective to web development.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: IoT Project On Healthcare</h3>
+                <p>Developed a healthcare monitoring system using IoT technologies to improve patient care and data collection.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Java Project On Billing System</h3>
+                <p>Designed and implemented a billing system in Java to streamline the invoicing process for a business.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: Web Page On Myself</h3>
+                <p>Created a personal portfolio website to showcase my skills, projects, and professional journey.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-container">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="skill-bar" style="width: 90%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="skill-bar" style="width: 80%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar" style="width: 75%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>Python</h3>
+                    <div class="skill-bar" style="width: 70%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>Node.js</h3>
+                    <div class="skill-bar" style="width: 60%;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacts Section -->
+        <section id="contacts">
+            <h2>Contact Me</h2>
+            <ul>
+                <li>Email: keerthanar6928@gmail.com</li>
+                <li>Phone: +91 81474 71064</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/jinxiieeeee/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank">
+                <img src="./assets/insta.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/keerthana-r-25b0a9267/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <img src="./assets/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/Keerthi-os" target="_blank">
+                <img src="./assets/git.png" alt="GitHub">
+            </a>
+        </div>
+        <div class="author">
+            <p>@keerthana</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
